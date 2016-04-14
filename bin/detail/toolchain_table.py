@@ -58,8 +58,9 @@ toolchain_table = [
     Toolchain('ot-appletvos-arm64', 'Xcode', ios_version='9.2'),
     Toolchain('ot-osx-x86_64', 'Xcode', osx_version='10.11'),
     Toolchain('ot-ubuntu-x86_64', 'Unix Makefiles'),
+    Toolchain('ot-centos-x86_64', 'Unix Makefiles'),
     Toolchain('ot-android-armv7a', 'Unix Makefiles'),
-    Toolchain('ot-android-arm64-v8a', 'Unix Makefiles'),
+    Toolchain('ot-android-arm64', 'Unix Makefiles'),
     Toolchain('ot-android-x86', 'Unix Makefiles'),
     Toolchain(
         'ot-windows-x86',
